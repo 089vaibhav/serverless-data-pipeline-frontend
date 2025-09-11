@@ -53,6 +53,8 @@ export default function App() {
       // 1. Get a pre-signed URL from our backend
       const presignResponse = await axios.post(`${API_URL}/upload`, {
         fileName: file.name,
+        // --- NEW: Send the file's content type to the backend ---
+        contentType: file.type,
       });
       const { uploadURL, fileId } = presignResponse.data;
 
