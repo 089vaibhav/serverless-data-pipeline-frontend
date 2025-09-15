@@ -5,8 +5,8 @@ Architecture Overview
 The application uses a serverless, event-driven architecture that is scalable, resilient, and cost-effective.
 
 1. Frontend (React) requests secure upload URL from API Gateway.
-   |
-   v
+                            |
+                            v
 2. API Gateway -> Lambda (generates Pre-signed S3 URL).
    |
    v
