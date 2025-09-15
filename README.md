@@ -60,7 +60,7 @@ Python: v3.12 or newer
 
 Git
 
-🚀 Getting Started: Step-by-Step Instructions
+Getting Started: Step-by-Step Instructions
 Step 1: Clone the Repository
 Bash
 
@@ -157,10 +157,10 @@ Add VITE_API_BASE_URL and paste your API Gateway URL as the value.
 
 Deploy the project.
 
-🛠️ Usage
+ Usage
 Once both deployments are complete, open your public Vercel URL. Drag and drop a CSV or JSON file onto the upload area to see the pipeline in action.
 
-🧹 Cleanup
+Cleanup
 To avoid any future costs, you can remove all the AWS resources created by this project.
 
 Empty the S3 Bucket: (Replace <your-bucket-name>)
